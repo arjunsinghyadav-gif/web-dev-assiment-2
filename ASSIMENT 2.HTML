@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="ASSIMENT2.CSS">
+</head>
+<body>
+
+    <!-- top navigation menu -->
+    <div class="top-nav">
+        <h2>My Website</h2>
+        <div class="menu-links">
+            <a href="#about">About</a>
+            <a href="#my-skills">Skills</a>
+            <a href="#work">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div class="section-box" id="about">
+        <h2>About Me</h2>
+        <hr>
+        <div class="about-flex">
+            <img src="assets/profile.jpg" alt="profile picture" width="140">
+            <div>
+                <p>Hello everyone! My name is Arjun singh yadav. This is my portfolio webpage created for my web design course. I am currently learning how to code with HTML and CSS to build simple websites.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- skills table section -->
+    <div class="section-box" id="my-skills">
+        <h2>Technical Skills</h2>
+        <hr>
+        <table class="center-table">
+            <tr>
+                <th>Technology</th>
+                <th>Experience</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Git</td>
+                <td>Basic</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- projects section -->
+    <div class="section-box" id="work">
+        <h2>My Projects</h2>
+        <hr>
+        <div class="project-box">
+            <h3>Project One</h3>
+            <p>A simple landing page made using basic HTML tags.</p>
+            <button class="my-btn">View Code</button>
+        </div>
+        <div class="project-box">
+            <h3>Project Two</h3>
+            <p>A basic contact form layout using text fields.</p>
+            <button class="my-btn">View Code</button>
+        </div>
+    </div>
+
+    <!-- contact form with validation -->
+    <div class="section-box" id="contact">
+        <h2>Contact Me</h2>
+        <hr>
+        <form>
+            <label>Your Name:</label><br>
+            <input type="text" name="name" required><br><br>
+
+            <label>Your Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Your Message:</label><br>
+            <textarea name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit" class="my-btn">Submit</button>
+        </form>
+    </div>
+
+    <!-- page footer -->
+    <div class="footer-box">
+    </div>
+
+    <!-- fixed back to top button -->
+    <a href="#" class="top-btn">Top</a>
+
+</body>
+</html>
